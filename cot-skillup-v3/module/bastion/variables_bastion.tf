@@ -7,9 +7,9 @@ variable "ec2_instance_profile" {
 #BASTION SG TAGS
 variable "bastion_sg_tags" {
   type        = map
-  description = "Application Load Balancer Tags"
+  description = "EC2 Name"
   default     = {
-    Name        = "skillup-bastion-sg-m.balilo-001"
+    Name        = "bastion-m.balilo-001"
     GBL_CLASS_0 = "SERVICE"
     GBL_CLASS_1 = "TEST"
   }
