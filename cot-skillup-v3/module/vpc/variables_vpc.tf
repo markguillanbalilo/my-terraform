@@ -3,7 +3,7 @@ variable "vpc_tagging" {
   type        = map
   description = "VPC Tags"
   default     = {
-    Name        = "skillup-vpc-m.balilo-001"
+    Name        = "test-vpc-m.balilo-001"
     GBL_CLASS_0 = "SERVICE"
     GBL_CLASS_1 = "TEST"
   }
